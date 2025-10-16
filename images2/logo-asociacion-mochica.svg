@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <defs>
+    <linearGradient id="ceramica" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#b84f2e"/>
+      <stop offset="100%" stop-color="#d88c2d"/>
+    </linearGradient>
+    <style>
+      .bg{fill:#1f1b1a;}
+      .sun{fill:#f2c572;}
+      .motif{fill:url(#ceramica);stroke:#f7e4c1;stroke-width:6;stroke-linejoin:round;}
+      .text{font-family:'Merriweather',serif;font-weight:700;letter-spacing:4px;fill:#f7e4c1;}
+    </style>
+  </defs>
+  <rect class="bg" width="240" height="240" rx="36"/>
+  <circle class="sun" cx="120" cy="72" r="36"/>
+  <path class="motif" d="M120 48l46 80-46 64-46-64z"/>
+  <path class="motif" d="M120 80l22 38-22 30-22-30z"/>
+  <text class="text" x="120" y="214" text-anchor="middle">ASM</text>
+</svg>
